@@ -4,12 +4,16 @@ body {
     background-color: rgb(238, 253, 229);
 }
 
-h1 {
-    color: rgb(3, 136, 74);
+h1, h2 {
+    color: rgb(2, 92, 50);
 }
 
 a {
     text-decoration: none;
     color: black;
     line-height: 1.5em;
+}
+
+.footer-link {
+    margin-top: 3em;
 }
