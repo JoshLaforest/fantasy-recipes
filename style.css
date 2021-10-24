@@ -2,7 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     background-color: rgb(238, 253, 229);
-    margin: 0 6em 0 6em;
+    margin: 3em 6em 3em 6em;
 }
 
 h1, h2, h3 {
@@ -12,18 +12,24 @@ h1, h2, h3 {
 
 h1 {
     font-size: 3em;
+    line-height: 0;
+}
+
+p, ol, ul {
+    margin-bottom: 2em;
 }
 
 a {
-    text-decoration: none;
     color: black;
+}
+
+p, li {
     line-height: 1.5em;
 }
 
-p {
-    line-height: 1.5em;
+.container {
+    border: solid 3px rgb(2, 92, 50);
+    border-radius: 20px;
+    padding: 2em;
 }
 
-.footer-link {
-    margin-top: 3em;
-}
